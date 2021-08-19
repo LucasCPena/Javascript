@@ -85,12 +85,12 @@ function redirecionar(){
 }
 
 function trocar(elemento){
-    elemento.innerHTML="otariokkkkkkkk";
+    elemento.innerHTML="Obrigado por passar o mouse";
     //alert("trocar texto");
 }
 
 function voltar(elemento){
-    elemento.innerHTML="Passa aqui paSSA";
+    elemento.innerHTML="Passa o mouse por cima";
 }
 
 function load(){
