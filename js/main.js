@@ -57,7 +57,7 @@ function setreplace(frase,nome,novo_nome){
 alert(soma(5,10));
 alert(setreplace("vai japão","japão","Brasil"));
 */
-
+/*
 function ValidaIdade (idade){
 
     var validar = true;
@@ -72,3 +72,31 @@ function ValidaIdade (idade){
 
 var idade = prompt("Qual sua idade");
 console.log(ValidaIdade(idade));
+*/
+
+function botão(){
+   document.getElementById("agradecimento").innerHTML="obrigado por clickar";
+  
+   // console.log( document.getElementById("agradecimento"));
+}
+
+function redirecionar(){
+    window.open("https://twitter.com/home");
+}
+
+function trocar(elemento){
+    elemento.innerHTML="otariokkkkkkkk";
+    //alert("trocar texto");
+}
+
+function voltar(elemento){
+    elemento.innerHTML="Passa aqui paSSA";
+}
+
+function load(){
+    alert("pagina carregada");
+}
+
+function funcaochange(elemento){
+    console.log(elemento.value)
+}

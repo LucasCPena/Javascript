@@ -7,7 +7,18 @@
     <title>Document</title>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>    
+<body onload="load()">    
     <h1>Teste da Pagina</h1>
+    <button type="button" onclick="botão()">Clique aqui</button>
+    
+    <h3 id ="agradecimento" onclick="redirecionar()"></h3>
+    <p id ="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>    
+    <p id ="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+
+    <select onchange="funcaochange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
 </body>
 </html>
